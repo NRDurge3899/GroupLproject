@@ -102,11 +102,12 @@ public class RetriveData extends TestClass implements Comparable<RetriveData> {
 			}
 			}
 		
-			System.out.println("Do you want to continue session: Y/N");
+			System.out.println("Do you want to continue session or exit: Y/N");
 			ch=sc.next().charAt(0);
 			System.out.println();
 		}while(ch=='y' || ch=='Y');
 		}
+		
 			
 		catch (SQLException e) {
 
